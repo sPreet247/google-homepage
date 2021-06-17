@@ -126,6 +126,10 @@ table {
   border-spacing: 0;
 }
 
+li {
+  margin: 0.6rem;
+}
+
 nav {
   display: flex;
   align-items: flex-start;
@@ -133,8 +137,10 @@ nav {
 }
 .navLeft {
   display: flex;
+  margin: 1rem;
 }
 
 .navRight {
   display: flex;
+  margin: 1rem;
 }
