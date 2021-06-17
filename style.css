@@ -87,6 +87,7 @@ video {
   font: inherit;
   vertical-align: baseline;
   box-sizing: border-box;
+  -moz-appearance: none;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -125,6 +126,15 @@ table {
   border-spacing: 0;
 }
 
-.lift-nav {
+nav {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.navLeft {
+  display: flex;
+}
+
+.navRight {
   display: flex;
 }
