@@ -144,3 +144,20 @@ nav {
   display: flex;
   margin: 1rem;
 }
+
+footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.footerLeft {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.footerRight {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
