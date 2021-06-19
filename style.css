@@ -138,6 +138,18 @@ a {
   outline: none;
   text-decoration: none;
   color: 000;
+  cursor: pointer;
+}
+img {
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+a:focus,
+a:hover {
+  border-bottom: 1px solid 000;
 }
 
 nav {
