@@ -134,6 +134,12 @@ li {
   margin: 0.6rem;
 }
 
+a {
+  outline: none;
+  text-decoration: none;
+  color: 000;
+}
+
 nav {
   position: absolute;
   top: 0;
