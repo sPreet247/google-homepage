@@ -150,6 +150,7 @@ button {
 a:focus,
 a:hover {
   border-bottom: 1px solid 000;
+  text-decoration: underline;
 }
 
 nav {
