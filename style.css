@@ -172,6 +172,13 @@ nav {
   align-items: center;
 }
 
+.login {
+  background-color: #4285f4;
+  font-weight: bold;
+  outline: none;
+  color: #fff;
+}
+
 section {
   display: flex;
   flex-direction: column;
@@ -188,6 +195,13 @@ footer {
   justify-content: space-between;
   bottom: 0;
   width: 100%;
+  font-style: normal;
+  background: #f2f2f2;
+
+  font-size: 14px;
+  line-height: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .footerLeft {
