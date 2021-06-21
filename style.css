@@ -139,6 +139,7 @@ a {
   text-decoration: none;
   color: 000;
   cursor: pointer;
+  color: #5f6368;
 }
 img {
   cursor: pointer;
@@ -146,11 +147,13 @@ img {
 
 button {
   cursor: pointer;
+  color: #5f6368;
 }
 a:focus,
 a:hover {
   border-bottom: 1px solid 000;
   text-decoration: underline;
+  color: 000;
 }
 
 nav {
@@ -173,10 +176,15 @@ nav {
 }
 
 .login {
+  font-size: 13px;
+  padding: 0.5rem;
+  border: none;
   background-color: #4285f4;
   font-weight: bold;
   outline: none;
   color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 section {
@@ -186,6 +194,27 @@ section {
 
   align-items: center;
   justify-content: center;
+}
+.search {
+  background-image: url("/assets/search_black_24dp.svg");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+.mic {
+  background-image: url("/assets/mic_black_24dp.svg");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
 }
 
 footer {
