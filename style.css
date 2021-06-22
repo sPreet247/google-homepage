@@ -188,6 +188,7 @@ nav {
 }
 
 section {
+  margin-top: 1.5rem;
   display: flex;
   flex-direction: column;
   height: 55%;
@@ -208,6 +209,7 @@ section {
   outline: none;
   width: 600px;
   border-radius: 24px;
+  margin-top: 2rem;
 }
 
 input:focus,
@@ -224,6 +226,7 @@ input:hover {
   padding-right: 10px;
   outline: none;
   border: none;
+  margin-top: 1.5rem;
 }
 
 button:focus,
