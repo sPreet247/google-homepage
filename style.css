@@ -204,17 +204,33 @@ section {
   padding: 12px 20px 12px 40px;
   border: 1px solid #ddd;
   margin-bottom: 12px;
+  border: 1px solid #dfe1e5;
+  outline: none;
+  width: 600px;
+  border-radius: 24px;
 }
 
-.mic {
-  background-image: url("/assets/mic_black_24dp.svg");
-  background-position: 10px 10px;
-  background-repeat: no-repeat;
-  width: 100%;
-  font-size: 16px;
-  padding: 12px 20px 12px 40px;
-  border: 1px solid #ddd;
-  margin-bottom: 12px;
+input:focus,
+input:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.search-btn {
+  border-radius: 4px;
+  cursor: pointer;
+  min-width: 54px;
+  height: 36px;
+  padding-left: 10px;
+  padding-right: 10px;
+  outline: none;
+  border: none;
+}
+
+button:focus,
+button:hover {
+  color: rgba(0, 0, 0);
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 
 footer {
